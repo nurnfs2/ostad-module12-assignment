@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://source.unsplash.com/1600x900/?healthy-food');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 130px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196F3;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#result {
+    margin-top: 55px;
+    color: orangered;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
